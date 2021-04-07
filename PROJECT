@@ -1,0 +1,6 @@
+domain: k8s.bobek.cz
+layout:
+- go.kubebuilder.io/v3
+projectName: cronjob3
+repo: bobek.cz/crontab
+version: "3"
