@@ -3,4 +3,14 @@ layout:
 - go.kubebuilder.io/v3
 projectName: cronjob3
 repo: bobek.cz/crontab
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: k8s.bobek.cz
+  group: batch
+  kind: CronJob
+  path: bobek.cz/crontab/api/v1
+  version: v1
 version: "3"
