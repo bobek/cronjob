@@ -13,4 +13,8 @@ resources:
   kind: CronJob
   path: bobek.cz/crontab/api/v1
   version: v1
+  webhooks:
+    defaulting: true
+    validation: true
+    webhookVersion: v1
 version: "3"
